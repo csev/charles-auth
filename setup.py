@@ -11,5 +11,8 @@ setup(
     packages=[
         'charles_auth'
     ],
-    description='Dr Chuck\'s authentication method.'
+    description='Dr Chuck\'s authentication method.',
+    install_requires=[
+        'dateutil'
+    ]
 )
