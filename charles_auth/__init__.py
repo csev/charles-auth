@@ -1,5 +1,8 @@
+import os
 import hashlib
 from datetime import datetime
+
+secret = os.getenv('CHARLES_AUTH_SECRET')
 
 def getexpire(date) :
 
