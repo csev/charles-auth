@@ -13,6 +13,6 @@ setup(
     ],
     description='Dr Chuck\'s authentication method.',
     install_requires=[
-        'dateutil'
+        'python-dateutil'
     ]
 )
